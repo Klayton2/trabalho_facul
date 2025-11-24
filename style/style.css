@@ -1,0 +1,131 @@
+/*Css Geral*/
+*{
+    margin: 0;
+    font-family: 'Google Sans Flex', sans-serif;
+}
+.login {
+    padding: 4% 40px;
+    text-align: center;
+}
+
+.login h2 {
+    font-size: 42px;
+    color: white;
+    margin-bottom: 40px;
+}
+.login p {
+    margin-top: 30px;
+}
+.login a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+form {
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+    flex-direction: column;
+}
+
+form input {
+    width: 100%;
+    gap: 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    background-color: rgb(255, 249, 249);
+    padding: 20px 15px;
+}
+button {
+    background-color: black !important;
+    padding: 15px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+body{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-color:  #2333c0;
+}
+
+.tarefas{
+    padding: 4% 40px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.tarefas h1 {
+    font-size: 48px;
+}
+
+.tarefas h2 {
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tarefas a {
+    gap: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.criar h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.criar form input[type=text]{
+    margin-bottom: 20px;
+}
+.criar h1 {
+    margin-bottom: 25px;
+}
+.criar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.pj h2 {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.pj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;      
+    width: 100%;
+    min-height: 100vh;      
+    color: white;
+}
+
+.pj form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;               
+    width: 300px;            
+}
+
+.pj form textarea {
+    border-radius: 15px;
+    resize: none;
+    width: 100%;
+}
+#add {
+    margin: 20px 20px;
+}
